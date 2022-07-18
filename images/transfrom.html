@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>transfrom</title>
+  <style>
+    div {width: 500px;height: 100px;text-align: center;border: 1px solid #000;margin: 50px;transition: 0.5s;}
+    /* 이동-tf:t 크기-tf:s 회전-tf:sk 기울임-tf:r */
+    /* x-옆으로, y-아래로 */
+    /* hover에만 쓰는건 아니다. */
+    #box1:hover {transform: translate(20px, 20px);}
+    /* 1=100 단위이다 0.8=줄일 수도 있다. 1,0.8을 해서 위나 아래만 줄일 수 있다. 둘다 동시에 할꺼면 그냥 하나만 써도된다.(생략)*/
+    #box2:hover {transform: scale(1, 0.8);}
+    #box3:hover {transform: rotate(-20deg);}
+    /* x,y를 바꿔가면서 가능하다.(안써도 되긴 함..아마?) */
+    #box4:hover {transform: skewX(20deg);}
+  </style>
+</head>
+<body>
+  <div id="box1">box1</div>
+  <div id="box2">box2</div>
+  <div id="box3">box3</div>
+  <div id="box4">box4</div>
+</body>
+</html>

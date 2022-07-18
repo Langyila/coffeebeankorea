@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>coffeebeankorea</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Gowun+Dodum&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+
+    toggle = 0
+    $('#header1_box li:last-child').click(function(){
+      if(toggle==0){
+        toggle=1;
+        $('#login').slideDown()
+      }
+      else if( toggle==1){
+        toggle=0
+        $('#login').hide()
+      }
+
+    })
+
+  })
+</script>
+</head>
+<body>
+<header>
+  <div id="header1">
+    <div id="login">
+      <div id="login_box">
+        <h3><p>로그인</p>을 하시면 커피빈 멤버스 클럽의 <p>다양한혜택</p>을 받으실 수 있습니다.</h3>
+        <button id="bt1">로그인</button>
+        <button id="bt2">회원가입</button>
+      </div>
+    </div>
+    <div id="header1_box">
+      <ul>
+        <li>로그인</li>
+        <li>매장찾기</li>
+        <li>채용정보</li>
+        <li>단체 및 기업구매</li>
+        <li>고개서비스</li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  <div id="header2">
+    <div id="header2_box">
+      <h1 id="logo"><img src="./logo_new.jpg" alt="logo"></h1>
+      <ul id="menu">
+        <li>BUY ONLINE</li>
+        <li>MEMBER'S CLUB</li>
+        <li>MENU</li>
+        <li>STORE & 서비스</li>
+        <li>THE COFFEE BEAN</li>
+        <li>CBTL</li>
+      </ul>
+      <img src="./icons/ico_search.png" alt="돋보기">
+    </div>
+  </div>
+</header>
+<div id="main_slide"></div>
+<div id="banner"></div>
+<!-- 상품영역 시작 -->
+<div id="md_pick">
+  <h2>MD'S PICK</h2>
+  <ul>
+    <li>
+      <img src="./images/12200016.jpg" alt="">
+      <h3>피크닉 스푼캐니스터(핑크)</h3>
+      <h4>♥봄이 왔 어흥!♥</h4>
+      <h5>6,900원</h5>
+    </li>
+    <li>
+      <img src="./images/11110043.jpg" alt="">
+      <h3>커피빈 바닐라 라떼 2T</h3>
+      <h4>커피빈 바닐라 라떼 (21.6g*2T)</h4>
+      <h5>1,500원</h5>
+    </li>
+    <li>
+      <img src="./images/11110042.jpg" alt="">
+      <h3>커피빈 잉글리쉬 브렉퍼스트라떼 파우치(10개입)</h3>
+      <h4>♥신제품 출시♥</h4>
+      <h5>15,000원</h5>
+    </li>
+    <li>
+      <img src="./images/11110041.jpg" alt="">
+      <h3>커피빈 바닐라 라떼 파우치(10개입)</h3>
+      <h4>♥신제품 출시♥</h4>
+      <h5>15,000원</h5>
+    </li>
+  </ul>
+</div>
+<div id="md_pick_bt">
+  <li><img src="./icons/btn_pause.png" alt=""></li>
+  <li><img src="./icons/paging_on_popup.png" alt=""><img src="./icons/paging_on.png" alt=""></li>
+</div>
+<div id="what_new">
+  <h2>what_new</h2>
+  <ul>
+    <li>
+      <img src="./images/PC_B_31.jpg" alt="연출">
+      <h3>2022 03 Spring Hallabong Cake & Rasberry Cheese Cake</h3>
+    </li>
+    <li>
+      <img src="./images/PC_B_47.jpg" alt="">
+      <h3>2022 03 Be always Blooming</h3>
+    </li>
+    <li>
+      <img src="./images/PC_B_49.jpg" alt="">
+      <h3>2022 Happy New Edition</h3>
+    </li>
+  </ul>
+</div>
+<div id="sns">
+  <h3>#커피빈코리아 #커피빈맛있다 #커피빈사랑해</h3>
+  <ul>
+    <li><img src="images/sns1.jpg" alt=""></li>
+    <li><img src="images/sns2.jpg" alt=""></li>
+    <li><img src="images/sns3.jpg" alt=""></li>
+    <li><img src="images/sns6.jpg" alt=""></li>
+    <li><img src="images/sns4.jpg" alt=""></li>
+    <li><img src="images/sns5.jpg" alt=""></li>
+    <li><img src="images/sns7.jpg" alt=""></li>
+    <li><img src="images/sns10.jpg" alt=""></li>
+    <li><img src="images/sns11.jpg" alt=""></li>
+    <li><img src="images/sns8.jpg" alt=""></li>
+    <li><img src="images/sns9.jpg" alt=""></li>
+    <li><img src="images/sns12.jpg" alt=""></li>
+  </ul>
+  <button>OUR INSTAGRAM - @COFFEEBEAN_KR</button>
+</div>
+<!--  -->
+<img src="./icons/btn_top.png" alt="" id="btn_top">
+</body>
+</html>
