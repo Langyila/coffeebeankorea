@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+#header1 {
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+}
+
+#login {width: 100%;height: 120px;background-color: #2f1c11;display: none;}
+#login_box {width: 1210px;height: 120px;margin: auto;}
+#login_box h3 {float: left;}
+#bt1 {width: 170px;height: 35px;background-color: #fff;border: none;}
+#bt2 {width: 170px;height: 35px;border: 1px solid #fff;background-color: transparent;color: #fff;}
+
+#header2 {
+  width: 100%;
+  height: 100px;
+}
+
+#header1_box {
+  width: 1210px;
+  height: 40px;
+  margin: auto;
+}
+
+#header2_box {
+  width: 1210px;
+  height: 100px;
+  margin: auto;
+}
+
+#header1_box ul {
+  float: right;
+  line-height: 40px;
+}
+
+#header1_box ul li {
+  float: left;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+#header1_box ul li:last-child {
+  width: 60px;
+  height: 40px;
+  background: #2f1c11 url(./icons/ico_user_info_line.png) center no-repeat;
+}
+
+#header1_box ul li:first-child {
+  border-right: 1px solid #ccc;
+  padding-right: 15px;
+}
+
+#header2_box>#logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  line-height: 100px;
+  background-color: #fff;
+}
+
+#header2_box>#logo>img {
+  vertical-align: middle;
+  margin-top: -10px;
+}
+
+#header2_box>#menu {
+  width: 950px;
+  height: 100px;
+  float: left;
+  margin-left: 50px;
+}
+
+#header2_box>#menu li {
+  float: left;
+  margin: 32px;
+  margin: 0 30px;
+  line-height: 100px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#header2_box>#menu li:hover {
+  color: #d4641a;
+}
+
+#header2_box>img {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-top: 30px;
+}
+
+#main_slide {
+  width: 100%;
+  height: 700px;
+  background: url(./images/mainslide_pc.jpg.jpg) center no-repeat;
+  margin-top: 140px;
+}
+
+#banner {
+  width: 100%;
+  height: 400px;
+  background: url(./images/banner.jpg.jpg) center no-repeat;
+}
+
+#md_pick {
+  width: 1000px;
+  height: 580px;
+  margin: auto;
+}
+
+#md_pick h2 {
+  width: 100%;
+  height: 135px;
+  text-align: center;
+  line-height: 135px;
+}
+
+#md_pick ul {}
+
+#md_pick ul li {
+  width: 240px;
+  height: 370px;
+  float: left;
+  margin: 5px;
+  text-align: center;
+}
+
+#md_pick ul li img {
+  width: 100%;
+}
+
+#md_pick ul li h3 {
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+#md_pick ul li h4 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+#md_pick ul li h5 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #d4641a;
+  margin-top: 5px;
+}
+
+#md_pick_bt {
+  width: 160px;
+  height: 40px;
+  margin: 20px auto;
+}
+
+#md_pick_bt li:nth-child(1) {
+  width: 60px;
+  height: 40px;
+  float: left;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  line-height: 40px;
+  text-align: center;
+}
+
+#md_pick_bt li:nth-child(2) {
+  width: 100px;
+  height: 40px;
+  float: right;
+  line-height: 40px;
+}
+
+#what_new {
+  width: 1000px;
+  height: 580px;
+  margin: auto;
+  background-color: rgb(220, 147, 147);
+}
+
+#what_new h2 {
+  width: 100%;
+  height: 135px;
+  text-align: center;
+  line-height: 135px;
+  background-color: rgb(12, 61, 101);
+}
+
+#what_new ul {}
+
+#what_new ul li img {
+  width: 300px;
+  height: 370px;
+  float: left;
+}
+
+#what_new ul li h3 {}
+
+#sns {
+  width: 100%;
+  height: 620px;
+  background-color: #7c51a1;
+  text-align: center;
+}
+
+#sns h3 {
+  text-align: center;
+  color: #fff;
+  padding-top: 15px;
+  line-height: 80px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#sns ul {
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+}
+
+#sns ul li {
+  width: 200px;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+}
+
+#sns ul li img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+#sns ul li img:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+#sns button {
+  width: 400px;
+  height: 40px;
+  background-color: #f38200;
+  color: #fff;
+  border: none;
+  margin-top: 30px;
+}
+
+#btn_top {
+  position: fixed;
+  right: 50px;
+  bottom: 100px;
+}
